@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="News and events from Ruesab Private School – announcements, achievements and school life.">
+  <title>News & Events | Ruesab Private School</title>
+   <link rel="icon" type="image/x-icon" href="images/ruesabLogo.png">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">
+        <div class="logo-icon"><img src="images/ruesabLogo.png" alt="" width="120px" height="120px"></div>
+        <span>RPS</span>
+      </a>
+            <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="academics.html">Academics</a>
+        <a href="admission.html">Admission</a>
+        <a href="staff.html">Staff</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="news.html" class="active">News</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div style="display:flex;align-items:center;gap:0.75rem;">
+        <a href="admission.html" class="btn btn-primary btn-sm nav-cta">Apply for Admission</a>
+      </div>
+      <button class="hamburger" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+    </div>
+  </header>
+
+  <div class="overlay"></div>
+  <div class="mobile-menu">
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="academics.html">Academics</a>
+    <a href="admission.html">Admission</a>
+    <a href="staff.html">Staff</a>
+    <a href="gallery.html">Gallery</a>
+    <a href="news.html" class="active">News</a>
+    <a href="faq.html">FAQ</a>
+    <a href="contact.html">Contact</a>
+    <a href="admission.html" class="btn btn-primary">Apply for Admission</a>
+  </div>
+
+  <div class="breadcrumb">
+    <div class="container">
+      <div class="breadcrumb-list">
+        <a href="index.html">Home</a> <span>/</span> <span style="color:var(--wine);">News & Events</span>
+      </div>
+    </div>
+  </div>
+
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="hero-animate">News & Events</h1>
+      <p class="hero-animate delay-1">Stay up to date with the latest from Ruesab – achievements, events and important announcements.</p>
+    </div>
+  </section>
+
+  <!-- Featured Article -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="grid-2 animate-on-scroll zoom-in" style="align-items:center;gap:2.5rem;background:var(--cream);border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-md);">
+        <img src="images/totowuBranch.jpg" alt="Featured news" style="height:100%;min-height:320px;object-fit:cover;">
+        <div style="padding:2rem 2rem 2rem 0;">
+          <span class="section-label">Featured</span>
+          <div class="news-meta mb-1">
+            <span class="news-category">Events</span>
+            <span>20 October 2026</span>
+          </div>
+          <h2 class="mb-2">Check out for Our News and Upcoming Events here</h2>
+          <p style="color:var(--gray-600);margin-bottom:1.5rem;">Parents and Students from the Isuti and Totowu Branch are advised to visit the page regu;larly to see our latest news and upcoming events.</p>
+          <a href="about.html" class="btn btn-primary">Read About Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- News Grid -->
+ <!-- <section class="section bg-cream">
+    <div class="container">
+      <div class="text-center mb-4 animate-on-scroll fade-up">
+        <h2>Latest Updates</h2>
+      </div>
+      <div class="grid-3">
+        <article class="news-card animate-on-scroll fade-up stagger-item">
+          <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&q=80" alt="Science fair" class="card-img">
+          <div class="card-body">
+            <div class="news-meta">
+              <span class="news-category">Academics</span>
+              <span>28 Aug 2026</span>
+            </div>
+            <h3 class="card-title">Science Fair Winners Announced</h3>
+            <p class="card-text">Outstanding projects in robotics, renewable energy and biology took top prizes at this year’s Science Fair.</p>
+            <p style="font-size:0.85rem;color:var(--gray-600);margin-bottom:1rem;">By Admin</p>
+            <a href="#" class="btn btn-outline btn-sm">Read More</a>
+          </div>
+        </article>
+        <article class="news-card animate-on-scroll fade-up stagger-item">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=600&q=80" alt="New term" class="card-img">
+          <div class="card-body">
+            <div class="news-meta">
+              <span class="news-category">Announcements</span>
+              <span>5 Sep 2026</span>
+            </div>
+            <h3 class="card-title">New Academic Session Begins</h3>
+            <p class="card-text">Welcome back messages, orientation for new students and key dates for the 2026/2027 academic year.</p>
+            <p style="font-size:0.85rem;color:var(--gray-600);margin-bottom:1rem;">By Admin</p>
+            <a href="#" class="btn btn-outline btn-sm">Read More</a>
+          </div>
+        </article>
+        <article class="news-card animate-on-scroll fade-up stagger-item">
+          <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&q=80" alt="Graduation" class="card-img">
+          <div class="card-body">
+            <div class="news-meta">
+              <span class="news-category">Events</span>
+              <span>20 Jul 2026</span>
+            </div>
+            <h3 class="card-title">Class of 2026 Graduation Ceremony</h3>
+            <p class="card-text">Proud families gathered as we celebrated the achievements of our graduating class and wished them well for the future.</p>
+            <p style="font-size:0.85rem;color:var(--gray-600);margin-bottom:1rem;">By Admin</p>
+            <a href="#" class="btn btn-outline btn-sm">Read More</a>
+          </div>
+        </article>
+        <article class="news-card animate-on-scroll fade-up stagger-item">
+          <img src="https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=600&q=80" alt="Debate" class="card-img">
+          <div class="card-body">
+            <div class="news-meta">
+              <span class="news-category">Clubs</span>
+              <span>15 Jun 2026</span>
+            </div>
+            <h3 class="card-title">Debate Club Wins Regional Championship</h3>
+            <p class="card-text">Our debate team brought home the regional trophy after a series of compelling arguments and strong teamwork.</p>
+            <p style="font-size:0.85rem;color:var(--gray-600);margin-bottom:1rem;">By Admin</p>
+            <a href="#" class="btn btn-outline btn-sm">Read More</a>
+          </div>
+        </article>
+        <article class="news-card animate-on-scroll fade-up stagger-item">
+          <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=600&q=80" alt="Lab upgrade" class="card-img">
+          <div class="card-body">
+            <div class="news-meta">
+              <span class="news-category">Facilities</span>
+              <span>2 May 2026</span>
+            </div>
+            <h3 class="card-title">Science Laboratories Upgraded</h3>
+            <p class="card-text">New equipment and safety features have been installed in the chemistry and physics laboratories at the Main Campus.</p>
+            <p style="font-size:0.85rem;color:var(--gray-600);margin-bottom:1rem;">By Admin</p>
+            <a href="#" class="btn btn-outline btn-sm">Read More</a>
+          </div>
+        </article>
+        <article class="news-card animate-on-scroll fade-up stagger-item">
+          <img src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=600&q=80" alt="Cultural day" class="card-img">
+          <div class="card-body">
+            <div class="news-meta">
+              <span class="news-category">Culture</span>
+              <span>18 Apr 2026</span>
+            </div>
+            <h3 class="card-title">Cultural Day Celebrates Diversity</h3>
+            <p class="card-text">Students showcased traditional attire, music and cuisine in a colourful celebration of our diverse community.</p>
+            <p style="font-size:0.85rem;color:var(--gray-600);margin-bottom:1rem;">By Admin</p>
+            <a href="#" class="btn btn-outline btn-sm">Read More</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>-->
+
+ <!-- Footer -->
+  <footer class="footer animate-on-scroll fade-up">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="index.html" class="logo" style="color:white;margin-bottom:1rem;">
+             <div class="log-icon"><img src="images/ruesabLogo.png" alt="" width="80px" height="80px"></div>
+            <span>Ruesab Private School</span>
+          </a>
+          <p>Nurturing excellence from Kindergarten through Senior Secondary School.</p>
+          <div class="social-links">
+            <a href="https://www.facebook.com/share/1PrMg1MPfA/" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://wa.me/2348145338020" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="academics.html">Academics</a></li>
+            <li><a href="admission.html">Admission</a></li>
+            <li><a href="staff.html">Staff</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="news.html">News & Events</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Our Campuses</h4>
+          <ul class="footer-links">
+            <li><a href="about.html#locations">Headquarters – Isuti Campus</a></li>
+            <li><a href="about.html#locations">Totowu Branch</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <ul class="footer-contact">
+            <li><i class="bi bi-telephone icon-inline"></i>+234 906 786 5456, +234 703 519 6381</li>
+            <li><i class="bi bi-envelope icon-inline"></i> ruesabisuti@gmail.com</li>
+            <li><i class="bi bi-geo-alt icon-inline"></i>  211 Isuti Road, Akasear House, Egan/Igando, P.O Box 393, Ikotun, Lagos.<br>1st Caterpillar Area, Ilugbo Totowu town, Ogun State.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        &copy; 2026 Ruesab Private School. All Rights Reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
